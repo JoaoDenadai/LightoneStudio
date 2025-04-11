@@ -1,0 +1,23 @@
+{
+  "name": "lightone",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc .",
+    "start": "electron .",
+    "fast": "tsc && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.14.0",
+    "@types/systeminformation": "^3.23.1",
+    "electron": "^35.1.4",
+    "systeminformation": "^5.25.11",
+    "typescript": "^5.8.3"
+  }
+}
